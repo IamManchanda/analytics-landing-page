@@ -1,12 +1,13 @@
 import Head from "next/head";
+import HomePage from "../components/home-page";
 
 function PageIndex() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>Home - Next.js Auth Setup</title>
       </Head>
-      <h1>Create Next App</h1>
+      <HomePage />
     </>
   );
 }
