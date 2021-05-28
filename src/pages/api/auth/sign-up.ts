@@ -22,6 +22,14 @@ async function handleSignUp(req, res) {
       const client = await connectToDb();
       const db = client.db();
 
+      const existingUser = await db.collection("users").findOne({ email });
+
+      if (existingUser) {
+        res.status(422).json({ message: "User exists already!" });
+        client.close();
+        return;
+      }
+
       const hashedPassword = await handleHashPassword(password);
 
       await db.collection("users").insertOne({
@@ -30,6 +38,7 @@ async function handleSignUp(req, res) {
       });
 
       res.status(201).json({ message: "Created User!" });
+      client.close();
       break;
 
     default:
