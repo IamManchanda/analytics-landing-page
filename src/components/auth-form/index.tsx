@@ -3,7 +3,7 @@ import { useState, useRef } from "react";
 import styles from "./styles.module.scss";
 
 async function createUser(email, password) {
-  const response = await fetch("/api/auth/sign-up", {
+  const response = await fetch("/api/auth/signup", {
     method: "POST",
     body: JSON.stringify({ email, password }),
     headers: {
