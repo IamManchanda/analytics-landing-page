@@ -13,6 +13,11 @@ function MainNavigation() {
       <nav>
         <ul>
           <li>
+            <Link href="/">
+              <a>Home</a>
+            </Link>
+          </li>
+          <li>
             <Link href="/auth">Login</Link>
           </li>
           <li>
