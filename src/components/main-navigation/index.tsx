@@ -1,10 +1,14 @@
 import Link from "next/link";
-import { useSession } from "next-auth/client";
+import { useSession, signOut } from "next-auth/client";
 
 import styles from "./styles.module.scss";
 
 function MainNavigation() {
   const [session, loading] = useSession();
+
+  function handleLogout() {
+    signOut();
+  }
 
   return (
     <header className={styles.header}>
@@ -26,7 +30,7 @@ function MainNavigation() {
                 <Link href="/profile">Profile</Link>
               </li>
               <li>
-                <button>Logout</button>
+                <button onClick={handleLogout}>Logout</button>
               </li>
             </>
           )}
