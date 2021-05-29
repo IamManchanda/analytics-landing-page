@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { getSession } from "next-auth/client";
 
 import AuthForm from "../components/auth-form";
 
@@ -11,6 +12,23 @@ function PageAuth() {
       <AuthForm />
     </>
   );
+}
+
+export async function getServerSideProps({ req }) {
+  const session = await getSession({ req });
+
+  if (session) {
+    return {
+      redirect: {
+        destination: "/",
+        permanent: false,
+      },
+    };
+  }
+
+  return {
+    props: {},
+  };
 }
 
 export default PageAuth;
