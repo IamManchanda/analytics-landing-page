@@ -27,7 +27,7 @@ export async function getServerSideProps({ req }) {
   }
 
   return {
-    props: {},
+    props: { session },
   };
 }
 
