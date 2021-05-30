@@ -1,3 +1,1 @@
-# Full Stack Next.js Meetups App
-
-(with Next.js API Routes & MongoDB backend)
+# Analytics Landing Page (Next.js + Tailwind CSS)
