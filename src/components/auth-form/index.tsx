@@ -50,8 +50,8 @@ function AuthForm() {
       }
     } else {
       try {
-        const result = await createUser(enteredEmail, enteredPassword);
-        console.log(result);
+        await createUser(enteredEmail, enteredPassword);
+        setIsLogin(true);
       } catch (error) {
         console.log(error);
       }
