@@ -44,7 +44,7 @@ async function handleChangePassword(req, res) {
 
       if (!arePasswordsEqual) {
         res.status(403).json({
-          message: "Invalid Password",
+          message: "Invalid Old Password",
         });
 
         client.close();
