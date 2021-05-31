@@ -5,6 +5,7 @@ import JumboHero from "../components/jumbo-hero";
 import SetForFuture from "../components/set-for-future";
 import EverythingYouExpect from "../components/everything-you-expect";
 import ProductFeaturesList from "../components/product-features-list";
+import ProductClients from "../components/product-clients";
 
 function PageIndex() {
   return (
@@ -24,6 +25,7 @@ function PageIndex() {
         <SetForFuture />
         <EverythingYouExpect />
         <ProductFeaturesList />
+        <ProductClients />
       </div>
     </>
   );
