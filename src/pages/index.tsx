@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import NavHeader from "../components/nav-header";
 import JumboHero from "../components/jumbo-hero";
 
@@ -11,6 +12,14 @@ function PageIndex() {
       <div className="mx-auto max-w-75r">
         <NavHeader />
         <JumboHero />
+        <div className="pb-2">
+          <Image
+            src="https://pirsch.io/static/img/dashboard-dark.svg"
+            width={1200}
+            height={768}
+            layout="responsive"
+          />
+        </div>
       </div>
     </>
   );
