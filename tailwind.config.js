@@ -30,6 +30,9 @@ module.exports = {
       fontFamily: {
         display: ["DM Sans", "sans-serif"],
       },
+      maxWidth: {
+        "75r": "75rem",
+      },
     },
   },
   variants: {

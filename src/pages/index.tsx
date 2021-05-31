@@ -1,13 +1,15 @@
 import Head from "next/head";
+import NavHeader from "../components/nav-header";
 
 function PageIndex() {
   return (
     <>
       <Head>
-        <title>Analytics Landing Page</title>
+        <title>Analytics Landing Page Clone</title>
       </Head>
-
-      <div>Analytics Landing Page</div>
+      <div>
+        <NavHeader />
+      </div>
     </>
   );
 }
