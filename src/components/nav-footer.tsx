@@ -26,26 +26,32 @@ function NavFooter() {
           </li>
           <li>
             <h6 className="mb-3 text-xl font-medium">Resources</h6>
-            <NavFooterLink href="/#live-demo" text="Live Demo" />
-            <NavFooterLink href="/#documentation" text="Documentation" />
-            <NavFooterLink href="/#api-sdks" text="API and SDKs" />
-            <NavFooterLink href="/#changelog" text="Changelog" />
+            <ul>
+              <NavFooterLink href="/#live-demo" text="Live Demo" />
+              <NavFooterLink href="/#documentation" text="Documentation" />
+              <NavFooterLink href="/#api-sdks" text="API and SDKs" />
+              <NavFooterLink href="/#changelog" text="Changelog" />
+            </ul>
           </li>
           <li>
             <h6 className="mb-3 text-xl font-medium">Social</h6>
-            <NavFooterLink href="/#github" text="Github" />
-            <NavFooterLink href="/#twitter" text="Twitter" />
-            <NavFooterLink href="/#discord" text="Discord" />
-            <NavFooterLink href="/#product-hunt" text="ProductHunt" />
+            <ul>
+              <NavFooterLink href="/#github" text="Github" />
+              <NavFooterLink href="/#twitter" text="Twitter" />
+              <NavFooterLink href="/#discord" text="Discord" />
+              <NavFooterLink href="/#product-hunt" text="ProductHunt" />
+            </ul>
           </li>
           <li>
             <h6 className="mb-4 text-xl font-medium">Legal</h6>
-            <NavFooterLink
-              href="/#terms-conditions"
-              text="Terms and Conditions"
-            />
-            <NavFooterLink href="/#privacy-policy" text="Privacy Policy" />
-            <NavFooterLink href="/#legal-notice" text="Legal Notice" />
+            <ul>
+              <NavFooterLink
+                href="/#terms-conditions"
+                text="Terms and Conditions"
+              />
+              <NavFooterLink href="/#privacy-policy" text="Privacy Policy" />
+              <NavFooterLink href="/#legal-notice" text="Legal Notice" />
+            </ul>
           </li>
         </ul>
       </li>
