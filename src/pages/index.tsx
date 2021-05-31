@@ -3,6 +3,7 @@ import Image from "next/image";
 import NavHeader from "../components/nav-header";
 import JumboHero from "../components/jumbo-hero";
 import SetForFuture from "../components/set-for-future";
+import EverythingYouExpect from "../components/everything-you-expect";
 
 function PageIndex() {
   return (
@@ -20,6 +21,7 @@ function PageIndex() {
           layout="responsive"
         />
         <SetForFuture />
+        <EverythingYouExpect />
       </div>
     </>
   );
