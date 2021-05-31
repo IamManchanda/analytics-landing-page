@@ -1,11 +1,13 @@
 function SetForFuture() {
   return (
     <div className="py-40">
-      <div className="grid grid-cols-2">
-        <h2 className="text-6xl font-semibold leading-tight">
-          Set up for the Future, Today.
-        </h2>
-        <div>
+      <ul className="grid grid-cols-2">
+        <li>
+          <h2 className="text-6xl font-semibold leading-tight">
+            Set up for the Future, Today.
+          </h2>
+        </li>
+        <li>
           <p className="text-[1.375rem] leading-normal text-pir-gray-500">
             Online marketing and ad-tech is a privacy nightmare. Google
             Analytics and other trackers follow you on each step around the web
@@ -21,8 +23,8 @@ function SetForFuture() {
             uniquely identifiable information. It offers an efficient dashboard
             to provide actionable, aggregated statistics.
           </p>
-        </div>
-      </div>
+        </li>
+      </ul>
     </div>
   );
 }
