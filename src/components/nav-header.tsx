@@ -4,7 +4,7 @@ import NavLink from "./nav-link";
 
 function NavHeader() {
   return (
-    <div className="flex items-center justify-between mx-auto py-7 max-w-75r">
+    <div className="flex items-center justify-between py-7">
       <div>
         <Link href="/">
           <a className="flex items-center">
@@ -23,7 +23,7 @@ function NavHeader() {
           <NavLink href="/#login" text="Log in" />
         </ul>
         <Link href="/#get-started">
-          <a className="px-3 py-1.5 ml-6 rounded-lg bg-pir-green hover:bg-pir-green-hover text-black font-medium">
+          <a className="px-3 py-1.5 ml-6 rounded-lg bg-pir-green hover:bg-pir-green-hover text-black font-medium transitions-colors duration-200">
             Get Started
           </a>
         </Link>

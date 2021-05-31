@@ -1,5 +1,6 @@
 import Head from "next/head";
 import NavHeader from "../components/nav-header";
+import JumboHero from "../components/jumbo-hero";
 
 function PageIndex() {
   return (
@@ -7,8 +8,9 @@ function PageIndex() {
       <Head>
         <title>Analytics Landing Page Clone</title>
       </Head>
-      <div>
+      <div className="mx-auto max-w-75r">
         <NavHeader />
+        <JumboHero />
       </div>
     </>
   );
