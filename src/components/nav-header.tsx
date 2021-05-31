@@ -9,7 +9,7 @@ function NavHeader() {
         <Link href="/">
           <a className="flex items-center">
             <BrandLogo className="w-5 h-7" />
-            <span className="ml-1.5 text-2xl font-medium tracking-tight">
+            <span className="ml-1.5 text-[1.375rem] font-medium tracking-tight">
               Pirsch
             </span>
           </a>

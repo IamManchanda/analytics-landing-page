@@ -8,7 +8,7 @@ function JumboHero() {
       <h1 className="font-semibold leading-tight text-black text-8xl">
         As Easy As Analytics Gets.
       </h1>
-      <p className="text-2xl leading-normal mt-9 text-pir-gray-500">
+      <p className="text-[1.375rem] leading-normal mt-9 text-pir-gray-500">
         Pirsch is a simple, privacy-friendly, open-source alternative to Google
         Analytics — lightweight, cookie-free and easily integrated into any
         website or directly into your backend.
