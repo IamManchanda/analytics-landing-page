@@ -1,4 +1,5 @@
 import Link from "next/link";
+import PrimaryButton from "./primary-button";
 
 function JumboHero() {
   return (
@@ -13,12 +14,7 @@ function JumboHero() {
       </p>
 
       <div className="mt-12">
-        <Link href="/#get-started">
-          <a className="px-5 py-3 ml-6 text-lg font-medium text-black duration-200 rounded-lg bg-pir-green hover:bg-pir-green-hover transitions-colors">
-            Try it for Free
-          </a>
-        </Link>
-
+        <PrimaryButton href="/#get-started" text="Try it for Free" />
         <Link href="/#live-demo">
           <a className="px-5 py-4 ml-6 text-lg font-medium text-black duration-200 bg-white rounded-lg hover:bg-pir-gray-200 transitions-colors">
             Live Demo
