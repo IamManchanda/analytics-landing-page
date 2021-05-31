@@ -4,6 +4,7 @@ import NavHeader from "../components/nav-header";
 import JumboHero from "../components/jumbo-hero";
 import SetForFuture from "../components/set-for-future";
 import EverythingYouExpect from "../components/everything-you-expect";
+import ProductFeaturesList from "../components/product-features-list";
 
 function PageIndex() {
   return (
@@ -22,6 +23,7 @@ function PageIndex() {
         />
         <SetForFuture />
         <EverythingYouExpect />
+        <ProductFeaturesList />
       </div>
     </>
   );
