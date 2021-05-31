@@ -2,9 +2,9 @@ import Link from "next/link";
 
 function NavHeaderLink({ href, text }) {
   return (
-    <li className="ml-6 font-medium">
+    <li className="ml-6">
       <Link href={href}>
-        <a>{text}</a>
+        <a className="font-medium">{text}</a>
       </Link>
     </li>
   );
