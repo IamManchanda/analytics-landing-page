@@ -2,7 +2,7 @@ import ProductFeatureItem from "./product-feature-item";
 
 function ProductFeaturesList() {
   return (
-    <div className="grid grid-cols-3 mb-40 mt-28 gap-x-7 gap-y-14">
+    <ul className="grid grid-cols-3 mb-40 mt-28 gap-x-7 gap-y-14">
       <ProductFeatureItem
         title="No Cookie Banner"
         text="Get rid of those annoying cookie banners. Pirsch does not track users
@@ -29,7 +29,7 @@ function ProductFeaturesList() {
         text="Receive the most important numbers in your inbox or send them to
           multiple recipients automatically."
       />
-    </div>
+    </ul>
   );
 }
 
