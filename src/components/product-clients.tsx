@@ -3,7 +3,7 @@ import PrimaryButton from "./primary-button";
 
 function ProductClients() {
   return (
-    <div className="grid grid-cols-3 mb-20 gap-x-16 gap-y-32">
+    <div className="grid grid-cols-3 gap-x-16 gap-y-32">
       <div className="flex flex-col justify-center col-span-1">
         <h5 className="text-3xl font-medium">Fit for WordPress</h5>
         <p className="mt-5 text-[1.375rem] leading-normal text-pir-gray-500">
@@ -14,14 +14,14 @@ function ProductClients() {
           <PrimaryButton href="/#wordpress" text="Add to Wordpress" />
         </div>
       </div>
-      <div className="flex items-center justify-center col-span-2 py-24 bg-black rounded-lg">
+      <div className="flex items-center justify-center col-span-2 py-24 bg-black rounded-xl">
         <Image
           src="https://pirsch.io/static/img/wordpress.svg"
           width={384}
           height={87}
         />
       </div>
-      <div className="flex items-center justify-center col-span-2 py-24 bg-black rounded-lg">
+      <div className="flex items-center justify-center col-span-2 py-24 bg-black rounded-xl">
         <Image
           src="https://pirsch.io/static/img/googlesearchconsole.svg"
           width={384}

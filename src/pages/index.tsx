@@ -6,6 +6,7 @@ import SetForFuture from "../components/set-for-future";
 import EverythingYouExpect from "../components/everything-you-expect";
 import ProductFeaturesList from "../components/product-features-list";
 import ProductClients from "../components/product-clients";
+import CallToAction from "../components/call-to-action";
 
 function PageIndex() {
   return (
@@ -26,6 +27,7 @@ function PageIndex() {
         <EverythingYouExpect />
         <ProductFeaturesList />
         <ProductClients />
+        <CallToAction />
       </div>
     </>
   );
