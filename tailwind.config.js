@@ -27,6 +27,9 @@ module.exports = {
         "pir-red": "#e87b7b",
         "pir-blue": "#73b1f0",
       },
+      fontFamily: {
+        display: ["DM Sans", "sans-serif"],
+      },
     },
   },
   variants: {
