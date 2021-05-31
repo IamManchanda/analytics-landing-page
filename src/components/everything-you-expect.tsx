@@ -33,13 +33,11 @@ function EverythingYouExpect() {
           src="https://pirsch.io/static/img/tables-dark.svg"
           width={568}
           height={663}
-          layout="responsive"
         />
         <Image
           src="https://pirsch.io/static/img/access-dark.svg"
           width={568}
           height={663}
-          layout="responsive"
         />
         <div className="flex flex-col justify-center">
           <h4 className="text-3xl font-medium">
