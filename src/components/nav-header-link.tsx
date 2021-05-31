@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-function NavLink({ href, text }) {
+function NavHeaderLink({ href, text }) {
   return (
     <li className="ml-6 font-medium">
       <Link href={href}>
@@ -10,4 +10,4 @@ function NavLink({ href, text }) {
   );
 }
 
-export default NavLink;
+export default NavHeaderLink;

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import BrandLogo from "./brand-logo";
-import NavLink from "./nav-link";
+import NavHeaderLink from "./nav-header-link";
 
 function NavHeader() {
   return (
@@ -17,10 +17,10 @@ function NavHeader() {
       </div>
       <div className="flex items-center">
         <ul className="flex">
-          <NavLink href="/#pricing" text="Pricing" />
-          <NavLink href="/#documentation" text="Documentation" />
-          <NavLink href="/#blog" text="Blog" />
-          <NavLink href="/#login" text="Log in" />
+          <NavHeaderLink href="/#pricing" text="Pricing" />
+          <NavHeaderLink href="/#documentation" text="Documentation" />
+          <NavHeaderLink href="/#blog" text="Blog" />
+          <NavHeaderLink href="/#login" text="Log in" />
         </ul>
         <Link href="/#get-started">
           <a className="px-3 py-1.5 ml-6 rounded-lg bg-pir-green hover:bg-pir-green-hover text-black font-medium transitions-colors duration-200">
