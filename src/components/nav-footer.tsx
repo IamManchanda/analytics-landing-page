@@ -2,17 +2,17 @@ import NavFooterLink from "./nav-footer-link";
 
 function NavFooter() {
   return (
-    <ul className="grid grid-cols-3 my-24">
-      <li className="col-span-1">
+    <ul className="grid grid-cols-1 my-24 lg:grid-cols-3">
+      <li className="lg:col-span-1">
         <h6 className="mb-3 text-xl font-medium">Pirsch Analytics</h6>
         <p className="text-pir-gray-500">Made and hosted in Germany.</p>
         <p className="text-pir-gray-500">
           &copy; 2021 Emvi Software GmbH. All rights reserved.
         </p>
       </li>
-      <li className="col-span-2">
-        <ul className="flex justify-between">
-          <li>
+      <li className="mt-6 lg:mt-0 lg:col-span-2">
+        <ul className="flex flex-col justify-between md:flex-row">
+          <li className="mb-6 md:mb-0">
             <h6 className="mb-3 text-xl font-medium">Product</h6>
             <ul>
               <NavFooterLink href="/" text="Home" />
@@ -24,7 +24,7 @@ function NavFooter() {
               <NavFooterLink href="/#faq" text="FAQ" />
             </ul>
           </li>
-          <li>
+          <li className="mb-6 md:mb-0">
             <h6 className="mb-3 text-xl font-medium">Resources</h6>
             <ul>
               <NavFooterLink href="/#live-demo" text="Live Demo" />
@@ -33,7 +33,7 @@ function NavFooter() {
               <NavFooterLink href="/#changelog" text="Changelog" />
             </ul>
           </li>
-          <li>
+          <li className="mb-6 md:mb-0">
             <h6 className="mb-3 text-xl font-medium">Social</h6>
             <ul>
               <NavFooterLink href="/#github" text="Github" />
@@ -42,7 +42,7 @@ function NavFooter() {
               <NavFooterLink href="/#product-hunt" text="ProductHunt" />
             </ul>
           </li>
-          <li>
+          <li className="mb-6 md:mb-0">
             <h6 className="mb-4 text-xl font-medium">Legal</h6>
             <ul>
               <NavFooterLink
