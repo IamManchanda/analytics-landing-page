@@ -4,7 +4,7 @@ import PrimaryButton from "./primary-button";
 function EverythingYouExpect() {
   return (
     <>
-      <div className="mx-auto max-w-35r lg:max-w-none">
+      <div className="mx-auto mt-10 lg:mt-0 max-w-35r lg:max-w-none">
         <h3 className="max-w-screen-md mx-auto text-3xl font-semibold leading-tight lg:text-center sm:text-5xl lg:text-6xl">
           Everything You Expect, and More...
         </h3>
