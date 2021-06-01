@@ -2,7 +2,7 @@ import ProductFeatureItem from "./product-feature-item";
 
 function ProductFeaturesList() {
   return (
-    <ul className="grid grid-cols-3 mb-40 mt-28 gap-x-7 gap-y-14">
+    <ul className="grid grid-cols-1 mx-auto mb-40 max-w-35r lg:max-w-none lg:grid-cols-3 mt-28 gap-x-7 gap-y-7 lg:gap-y-14">
       <ProductFeatureItem
         title="No Cookie Banner"
         text="Get rid of those annoying cookie banners. Pirsch does not track users
