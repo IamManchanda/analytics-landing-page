@@ -56,7 +56,7 @@ function NavHeader() {
 
       <div className="md:hidden">
         {showMenu && (
-          <div className="relative">
+          <div className="relative h-screen">
             <div className="absolute flex w-full pb-10 bg-pir-beige">
               <ul className="flex flex-col w-full -mt-4">
                 <NavHeaderLink href="/#pricing" text="Pricing" isMobile />
