@@ -13,16 +13,16 @@ function EverythingYouExpect() {
             <h4 className="text-2xl font-medium lg:text-3xl">
               Powerful Dashboard for Your Personal or Business Needs
             </h4>
-            <p className="mt-5 text-lg md:text-xl lg:text-[1.375rem] leading-normal text-pir-gray-500">
+            <p className="mt-5 text-lg lg:text-[1.375rem] leading-normal text-pir-gray-500">
               Receive detailed insights on all your website metrics, including
               page views, bounce rate, time on page, and many more.
             </p>
-            <p className="mt-5 text-lg md:text-xl lg:text-[1.375rem] leading-normal text-pir-gray-500">
+            <p className="mt-5 text-lg lg:text-[1.375rem] leading-normal text-pir-gray-500">
               Answer questions like "How many users clicked on my paid marketing
               campaign from the United States?" powered by UTM parameters and
               stackable filters.
             </p>
-            <p className="mt-5 text-lg md:text-xl lg:text-[1.375rem] leading-normal text-pir-gray-500">
+            <p className="mt-5 text-lg lg:text-[1.375rem] leading-normal text-pir-gray-500">
               Stay up-to-date on all your devices, whether you are on a desktop,
               tablet, or smartphone — presented in light or dark mode.
             </p>
@@ -48,13 +48,13 @@ function EverythingYouExpect() {
             <h4 className="text-2xl font-medium lg:text-3xl">
               Fine-grained Access Management Means Full Control
             </h4>
-            <p className="mt-5 text-lg md:text-xl lg:text-[1.375rem] leading-normal text-pir-gray-500">
+            <p className="mt-5 text-lg lg:text-[1.375rem] leading-normal text-pir-gray-500">
               Give your team members access to the dashboard by assigning each
               one their own role, enabling them to see important data at a
               glance. If you want, you can share your dashboard with the world
               using your personal subdomain.
             </p>
-            <p className="mt-5 text-lg md:text-xl lg:text-[1.375rem] leading-normal text-pir-gray-500">
+            <p className="mt-5 text-lg lg:text-[1.375rem] leading-normal text-pir-gray-500">
               Generate unique access links for external partners, customers, or
               clients. Created or deleted in seconds, so you are always on top.
             </p>

@@ -8,7 +8,7 @@ function SetForFuture() {
           </h2>
         </li>
         <li className="mt-4 lg:mt-0">
-          <p className="text-lg md:text-xl lg:text-[1.375rem] leading-normal text-pir-gray-500">
+          <p className="text-lg lg:text-[1.375rem] leading-normal text-pir-gray-500">
             Online marketing and ad-tech is a privacy nightmare. Google
             Analytics and other trackers follow you on each step around the web
             and collect information on your behavior. For website owners, the
@@ -16,7 +16,7 @@ function SetForFuture() {
             gets less reliable, as plugins and browsers start to take matters
             into their own hands, blocking invasive scripts by default.
           </p>
-          <p className="mt-4 text-lg md:text-xl lg:text-[1.375rem] leading-normal text-pir-gray-500">
+          <p className="mt-4 text-lg lg:text-[1.375rem] leading-normal text-pir-gray-500">
             We set out to solve that problem with a privacy-focused,
             open-source, and easy-to-integrate solution. Pirsch respects your
             visitors' privacy. It never tracks them across websites nor collects
