@@ -3,11 +3,11 @@ import SecondaryButton from "./secondary-button";
 
 function JumboHero() {
   return (
-    <div className="max-w-screen-md mx-auto md:text-center py-14 md:py-28">
-      <h1 className="text-5xl font-semibold leading-tight text-black lg:text-8xl">
+    <div className="max-w-screen-md py-8 mx-auto md:text-center md:py-28">
+      <h1 className="text-4xl font-semibold leading-tight text-black md:text-6xl lg:text-8xl">
         As Easy As Analytics Gets.
       </h1>
-      <p className="text-xl md:text-[1.375rem] leading-normal mt-9 text-pir-gray-500">
+      <p className="text-lg md:text-[1.375rem] leading-normal mt-6 md:mt-9 text-pir-gray-500">
         Pirsch is a simple, privacy-friendly, open-source alternative to Google
         Analytics — lightweight, cookie-free and easily integrated into any
         website or directly into your backend.

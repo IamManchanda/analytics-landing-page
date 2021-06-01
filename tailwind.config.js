@@ -34,6 +34,7 @@ module.exports = {
         display: ["DM Sans", "sans-serif"],
       },
       maxWidth: {
+        "35r": "35rem",
         "75r": "75rem",
       },
     },
