@@ -1,9 +1,17 @@
 import Link from "next/link";
+import classNames from "classnames";
 
-function PrimaryButton({ href, text }) {
+function PrimaryButton({ href, text, isFull = false }) {
   return (
     <Link href={href}>
-      <a className="px-5 py-3 text-lg font-medium text-black duration-200 rounded-lg bg-pir-green hover:bg-pir-green-hover transitions-colors">
+      <a
+        className={classNames(
+          "px-5 py-3 text-lg font-medium text-black duration-200 rounded-lg bg-pir-green hover:bg-pir-green-hover transitions-colors",
+          {
+            "block w-full text-center": isFull,
+          },
+        )}
+      >
         {text}
       </a>
     </Link>
